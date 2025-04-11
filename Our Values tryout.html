@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Brand Values | Curtain Call</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #e74c3c;
+            --light-color: #ecf0f1;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .value-card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .value-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .value-icon {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+        }
+        
+        .value-card h3 {
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+        
+        .brand-statement {
+            background-color: var(--light-color);
+            border-radius: 10px;
+            padding: 40px;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+</head>
+  <body class="h-100 d-flex flex-column">
+
+    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/curtaincalllogo.svg" width="40" alt="Curtain Call Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C|/Users/keris/Downloads/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C|/Users/keris/Downloads/example.html">Example</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                UX Patterns
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="file:///C|/Users/keris/Downloads/hero.html">Hero Section</a></li>
+                <li><a class="dropdown-item active" aria-current="page" href="file:///C|/Users/keris/Downloads/carousel.html">Carousel</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="file:///C|/Users/keris/Downloads/two-columns.html">Two-column Layout</a></li>
+                <li><a class="dropdown-item" href="file:///C|/Users/keris/Downloads/cards.html">Cards</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C|/Users/keris/Downloads/corporate.html">Corporate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navigation bar -->
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Our Values</h1>
+            <p class="lead">The principles that guide everything we do</p>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Value 1 -->
+                <div class="col-md-4">
+                    <div class="value-card p-4 text-center h-100">
+                        <div class="value-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Integrity</h3>
+                        <p>We believe in doing business with honesty and transparency. Our word is our bond, and we stand by our commitments to customers, partners, and employees alike.</p>
+                    </div>
+                </div>
+                
+                <!-- Value 2 -->
+                <div class="col-md-4">
+                    <div class="value-card p-4 text-center h-100">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Innovation</h3>
+                        <p>We constantly push boundaries and challenge the status quo. Our culture encourages creative thinking and embraces change as an opportunity for growth.</p>
+                    </div>
+                </div>
+                
+                <!-- Value 3 -->
+                <div class="col-md-4">
+                    <div class="value-card p-4 text-center h-100">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community</h3>
+                        <p>We're committed to making a positive impact in the communities we serve. Success means nothing if we don't lift others as we climb.</p>
+                    </div>
+                </div>
+                
+                <!-- Value 4 -->
+                <div class="col-md-4">
+                    <div class="value-card p-4 text-center h-100">
+                        <div class="value-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3>Quality</h3>
+                        <p>We take pride in delivering excellence in everything we do. From products to customer service, we settle for nothing but the best.</p>
+                    </div>
+                </div>
+                
+                <!-- Value 5 -->
+                <div class="col-md-4">
+                    <div class="value-card p-4 text-center h-100">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Passion</h3>
+                        <p>We love what we do, and it shows. Our enthusiasm fuels our dedication and inspires those around us to do their best work.</p>
+                    </div>
+                </div>
+                
+                <!-- Value 6 -->
+                <div class="col-md-4">
+                    <div class="value-card p-4 text-center h-100">
+                        <div class="value-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Sustainability</h3>
+                        <p>We're committed to environmentally responsible practices that ensure a better future for generations to come.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Statement -->
+    <section class="py-5">
+        <div class="container">
+            <div class="brand-statement">
+                <h2 class="text-center mb-4">Our Brand Promise</h2>
+                <p class="text-center lead">At BrandName, we don't just sell products - we deliver experiences built on trust, quality, and a genuine desire to make a difference. These values aren't just words on a page; they're the foundation of every decision we make and every interaction we have.</p>
+                <p class="text-center">From our leadership team to our newest hires, everyone at BrandName is committed to upholding these principles daily. We invite you to hold us accountable to these standards as we work together to build something truly meaningful.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Curtain Call, Breda University of Applied Sciences. All rights reserved.</p>
+            <div class="social-links mt-3">
+
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Highlight current page in navigation
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = location.pathname.split('/').pop();
+            document.querySelectorAll('.nav-link').forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>

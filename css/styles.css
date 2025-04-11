@@ -2,23 +2,48 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
+ /* This only styles your specific ticket button */
+
+.button1 {
+  background-color: #D6BE1B; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* Changing the main font and background colour */
+.nav-link{font-style: Italic;
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"; 
+color: aliceblue}
+
+h1 {color: aliceblue}
+
+h5 {color: aliceblue}
+
+.container {color: aliceblue}
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
-}
+	margin: 0;
+    min-height: 100vh;
+	background: linear-gradient(to bottom, #871719, #0F2347) fixed;
+} 
+
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #DD9C10;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #871719;
 }
 
 /* Effect on social media buttons */

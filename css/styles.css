@@ -16,8 +16,9 @@
 }
 
 /* Changing the main font and background colour */
-.nav-link{font-style: Italic;
-font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"; 
+.nav-link{font-family: "Special Gothic Expanded One", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 color: aliceblue}
 
 h1 {color: aliceblue}

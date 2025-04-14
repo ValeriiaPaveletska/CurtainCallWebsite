@@ -16,10 +16,26 @@
 }
 
 /* Changing the main font and background colour */
-.nav-link{font-family: "Special Gothic Expanded One", sans-serif;
-	font-weight: 500;
-	font-style: normal;
+.nav-link{font-family:  "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 color: aliceblue}
+
+.title{font-family:  "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+
+.text{font-family:  "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
 
 h1 {color: aliceblue}
 

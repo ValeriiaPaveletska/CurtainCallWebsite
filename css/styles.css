@@ -4,6 +4,25 @@
 
  /* This only styles your specific ticket button */
 
+/* Hover Animation */
+  .hover-zoom {
+    transition: transform 0.3s ease;
+    display: inline-block; /* Contain the transform effect */
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.05);
+  }
+  
+  .hover-zoom img {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .hover-zoom:hover img {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+
+
 .button1 {
   background-color: #D6BE1B; /* Green */
   border: none;
@@ -26,6 +45,12 @@ color: aliceblue}
 .title{font-family: "Cormorant Unicase", serif;
   font-weight: 500;
   font-style: normal}
+
+.title-socials{font-family: "Cormorant Unicase", serif;
+  font-weight: 500;
+  font-style: normal;
+	margin-top: 1rem;
+}
 
 .card-title{font-family: "Cormorant Unicase", serif;
   font-weight: 700;

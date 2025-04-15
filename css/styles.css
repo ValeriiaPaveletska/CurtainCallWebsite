@@ -23,12 +23,14 @@
     "wdth" 100;
 color: aliceblue}
 
-.title{font-family:  "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
+.title{font-family: "Cormorant Unicase", serif;
+  font-weight: 500;
+  font-style: normal}
+
+.card-title{font-family: "Cormorant Unicase", serif;
+  font-weight: 700;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;}
+color: black}
 
 .text{font-family:  "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -36,6 +38,7 @@ color: aliceblue}
   font-style: normal;
   font-variation-settings:
     "wdth" 100;}
+
 
 h1 {color: aliceblue}
 

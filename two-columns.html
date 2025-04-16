@@ -68,12 +68,93 @@
     </nav>
 	 <!-- End of navigation bar -->
 
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p>This is an example using the <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">Bootstrap responsive grid</a>.</p>
-        <p>On smaller screen sizes, columns are on top of one another, a layout that changes at larger screen sizes</p>
-      </div>
-    </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+</head>
+<body>
+    <div class="faq-container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="faq-question">Is Curtain Call free? </div>
+            <div class="faq-answer">
+                <p>Curtain Call is an app designed to build communities. For optimised customer experience, we do not have advertisements or pop-ups in our app. Therefore, to make it sustainable and optimal for both our users and our team, the app has a … one-time payment fee. Our website, however, is completely free to use!</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Can I buy tickets directly through Curtain Call? </div>
+            <div class="faq-answer">
+                <p>We provide you with all the information needed and with the links to the official theatre-pages where you can purchase the tickets. Curtain Call is an app designed to build communities, not sell tickets. </p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Does Curtain Call organise the plays it advertises?</div>
+            <div class="faq-answer">
+                <p>Although Curtain Call does sponsor or collaborate with some of them, our brand does not organise any of the events we advertise.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">I accidentally swiped left on the play I’m interested in, what do I do?</div>
+            <div class="faq-answer">
+                <p>To see previously viewed plays in the Curtain Call app you can go to your profile screen, then to settings, then to history. Keep in mind that you can only view the last 20 events you viewed.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Do I get a refund if the show is canceled?</div>
+            <div class="faq-answer">
+                <p>Curtain Call does not allow direct tickets purchase from our platform, therefore we would recommend contacting the venue for a refund.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">I’m getting harassed in one of the communities, what do I do?</div>
+            <div class="faq-answer">
+                <p>Curtain Call believes in equal treatment and respectful communication. We have moderators available in each community to block people that go against our policy. If you think that it’s taking our moderators too long to block an account you can contact them privately or send a message to our support group.</p>
+            </div>
+        </div>
+		<div class="faq-item">
+            <div class="faq-question">Are Curtain Call events wheelchair accessible?</div>
+            <div class="faq-answer">
+                <p>Unfortunately, not all venues are able to accommodate people with disabilities or in need of additional support, therefore we make sure to state in the description of every event/play whether it is accessible or not. Contact our support group if the information on our platform is incorrect.</p>
+            </div>
+        </div>
+		<div class="faq-item">
+            <div class="faq-question">How can I join the Curtain Call team?</div>
+            <div class="faq-answer">
+                <p>To join the Curtain Call team you can contact our email curtaincallhr@gmail.com.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                
+                question.addEventListener('click', () => {
+                    // Close all other items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item && otherItem.classList.contains('active')) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    
+                    // Toggle current item
+                    item.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
 
     <!-- A grid with 2 columns
       Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/

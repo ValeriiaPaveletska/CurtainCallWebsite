@@ -2,6 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
+.header-with-bg {
+    background-image: url('../images/dark-red-stage-curtain.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    width: 100%;
+    min-height: 300px; /* Adjust as needed */
+    position: relative; /* Helps with content positioning */
+}
+
 /* Center alignment replacement for <center> */
 .centered-content {
   text-align: center;

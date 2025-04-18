@@ -1,6 +1,46 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+/* Center alignment replacement for <center> */
+.centered-content {
+  text-align: center;
+}
+
+/* Content box styling (replaces inline padding/margin) */
+.content-box {
+  padding: 40px;
+  margin-bottom: 24px;
+}
+
+/* For the "Our values" section (smaller padding) */
+.content-box.small-padding {
+  padding: 20px;
+}
+
+/* Image styling (replaces inline width/margin) */
+.icon-img {
+  width: 84px;
+  margin: 24px 0 0 0;
+}
+
+/* Logo image styling */
+.logo-img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Title margin (replaces inline style) */
+.title2{font-family: "Cormorant Unicase", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 24px 0;
+}
+
+/* Text styling (if needed) */
+.text {
+  /* Add any additional text styling here */
+}
 .title1 {font-family: "Cormorant Unicase", serif;
   font-weight: 500;
 	text-align: center;
